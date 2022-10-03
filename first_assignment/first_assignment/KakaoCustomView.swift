@@ -10,7 +10,7 @@ import UIKit
 
 class KakaoCustomView: UIView {
 
-    private let nameTextField: UITextField = {
+    let nameTextField: UITextField = {
         let textField = UITextField(frame: CGRect(x: 0, y: 0, width: 300, height: 39))
         return textField
     }()
