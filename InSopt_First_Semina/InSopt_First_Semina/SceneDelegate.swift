@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  first assignment
+//  InSopt_First_Semina
 //
-//  Created by saint on 2022/10/03.
+//  Created by saint on 2022/10/01.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let window = UIWindow(windowScene: windowScene)
                 window.overrideUserInterfaceStyle = UIUserInterfaceStyle.light
                 
-                let rootVC = LoginMenu()
+                let rootVC = FirstViewController()
                 let navigationController = UINavigationController(rootViewController: rootVC)
                 
                 window.rootViewController = navigationController

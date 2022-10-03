@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  first assignment
+//  InSopt_First_Semina
 //
-//  Created by saint on 2022/10/03.
+//  Created by saint on 2022/10/01.
 //
 
 import UIKit
