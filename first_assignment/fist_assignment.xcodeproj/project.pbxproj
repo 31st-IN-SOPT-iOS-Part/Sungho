@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85D0784328EAA8C80031A2AE /* first_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D0784328EAA8C80031A2AE /* fist_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fist_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D0784628EAA8C80031A2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D0784828EAA8C80031A2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85D0784A28EAA8C80031A2AE /* NewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccount.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		85D0784428EAA8C80031A2AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85D0784328EAA8C80031A2AE /* first_assignment.app */,
+				85D0784328EAA8C80031A2AE /* fist_assignment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85D0784228EAA8C80031A2AE /* first_assignment */ = {
+		85D0784228EAA8C80031A2AE /* fist_assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first_assignment" */;
+			buildConfigurationList = 85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "fist_assignment" */;
 			buildPhases = (
 				85D0783F28EAA8C80031A2AE /* Sources */,
 				85D0784028EAA8C80031A2AE /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = first_assignment;
+			name = fist_assignment;
 			productName = "first assignment";
-			productReference = 85D0784328EAA8C80031A2AE /* first_assignment.app */;
+			productReference = 85D0784328EAA8C80031A2AE /* fist_assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first_assignment" */;
+			buildConfigurationList = 85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "fist_assignment" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,11 +120,14 @@
 				Base,
 			);
 			mainGroup = 85D0783A28EAA8C80031A2AE;
+			packageReferences = (
+				85ECE4AA28F56EA000050B6F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 85D0784428EAA8C80031A2AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85D0784228EAA8C80031A2AE /* first_assignment */,
+				85D0784228EAA8C80031A2AE /* fist_assignment */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first_assignment" */ = {
+		85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "fist_assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85D0785528EAA8C90031A2AE /* Debug */,
@@ -360,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first_assignment" */ = {
+		85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "fist_assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85D0785828EAA8C90031A2AE /* Debug */,
@@ -370,6 +373,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85ECE4AA28F56EA000050B6F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 85D0783B28EAA8C80031A2AE /* Project object */;
 }
