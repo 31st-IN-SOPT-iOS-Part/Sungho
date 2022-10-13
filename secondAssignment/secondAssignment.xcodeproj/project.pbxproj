@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B29DE928F8355C004D8B55 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B29DE828F8355C004D8B55 /* ProfileScreen.swift */; };
+		85B29DEB28F86906004D8B55 /* TouchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B29DEA28F86906004D8B55 /* TouchButtonView.swift */; };
+		85EC949228F8220D00130CB2 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC949128F8220D00130CB2 /* FriendList.swift */; };
 		85ECE4B828F5787100050B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECE4B728F5787100050B6F /* AppDelegate.swift */; };
 		85ECE4BA28F5787100050B6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECE4B928F5787100050B6F /* SceneDelegate.swift */; };
 		85ECE4BC28F5787100050B6F /* LoginMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECE4BB28F5787100050B6F /* LoginMenu.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85B29DE828F8355C004D8B55 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		85B29DEA28F86906004D8B55 /* TouchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchButtonView.swift; sourceTree = "<group>"; };
+		85EC949128F8220D00130CB2 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
 		85ECE4B428F5787100050B6F /* secondAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = secondAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ECE4B728F5787100050B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85ECE4B928F5787100050B6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 				85ECE4BB28F5787100050B6F /* LoginMenu.swift */,
 				85ECE4D028F57A7C00050B6F /* NewAccount.swift */,
 				85ECE4D228F57AA100050B6F /* CheckAccount.swift */,
+				85EC949128F8220D00130CB2 /* FriendList.swift */,
+				85B29DE828F8355C004D8B55 /* ProfileScreen.swift */,
+				85B29DEA28F86906004D8B55 /* TouchButtonView.swift */,
 			);
 			path = secondAssignment;
 			sourceTree = "<group>";
@@ -158,9 +167,12 @@
 				85ECE4D328F57AA100050B6F /* CheckAccount.swift in Sources */,
 				85ECE4D128F57A7C00050B6F /* NewAccount.swift in Sources */,
 				85ECE4BC28F5787100050B6F /* LoginMenu.swift in Sources */,
+				85B29DEB28F86906004D8B55 /* TouchButtonView.swift in Sources */,
+				85EC949228F8220D00130CB2 /* FriendList.swift in Sources */,
 				85ECE4CF28F57A1C00050B6F /* KakaoCustomView.swift in Sources */,
 				85ECE4B828F5787100050B6F /* AppDelegate.swift in Sources */,
 				85ECE4BA28F5787100050B6F /* SceneDelegate.swift in Sources */,
+				85B29DE928F8355C004D8B55 /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

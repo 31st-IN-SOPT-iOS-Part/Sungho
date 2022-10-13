@@ -48,7 +48,8 @@ class CheckAccount: UIViewController {
     @objc
     private func touchupOkayButton(){
         if self.navigationController == nil{
-            self.dismiss(animated: true, completion: nil)
+            //self.dismiss(animated: true, completion: nil) # root가 바꼈으니 따로 필요 없음
+            self.view.window?.rootViewController = FriendList()
         }
         else{
             self.navigationController?.popViewController(animated: true)

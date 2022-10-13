@@ -70,7 +70,6 @@ class NewAccount: UIViewController {
         if let answer = emailPhoneTextField.nameTextField.text{
             ca.showText(email: answer)
         }
-        
     }
     
 }
