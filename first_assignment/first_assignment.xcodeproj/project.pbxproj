@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		85D0784728EAA8C80031A2AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0784628EAA8C80031A2AE /* AppDelegate.swift */; };
 		85D0784928EAA8C80031A2AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0784828EAA8C80031A2AE /* SceneDelegate.swift */; };
-		85D0784B28EAA8C80031A2AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0784A28EAA8C80031A2AE /* ViewController.swift */; };
+		85D0784B28EAA8C80031A2AE /* NewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0784A28EAA8C80031A2AE /* NewAccount.swift */; };
 		85D0784E28EAA8C80031A2AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D0784C28EAA8C80031A2AE /* Main.storyboard */; };
 		85D0785028EAA8C90031A2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D0784F28EAA8C90031A2AE /* Assets.xcassets */; };
 		85D0785328EAA8C90031A2AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D0785128EAA8C90031A2AE /* LaunchScreen.storyboard */; };
-		85D0785B28EAAA1D0031A2AE /* MainAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0785A28EAAA1D0031A2AE /* MainAccount.swift */; };
+		85D0785B28EAAA1D0031A2AE /* LoginMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0785A28EAAA1D0031A2AE /* LoginMenu.swift */; };
+		85D0785D28EAAF980031A2AE /* CheckAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0785C28EAAF980031A2AE /* CheckAccount.swift */; };
+		85D0785F28EAC1600031A2AE /* KakaoCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0785E28EAC1600031A2AE /* KakaoCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		85D0784328EAA8C80031A2AE /* first assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "first assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D0784328EAA8C80031A2AE /* first_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D0784628EAA8C80031A2AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85D0784828EAA8C80031A2AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85D0784A28EAA8C80031A2AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85D0784A28EAA8C80031A2AE /* NewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccount.swift; sourceTree = "<group>"; };
 		85D0784D28EAA8C80031A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85D0784F28EAA8C90031A2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D0785228EAA8C90031A2AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85D0785428EAA8C90031A2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		85D0785A28EAAA1D0031A2AE /* MainAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAccount.swift; sourceTree = "<group>"; };
+		85D0785A28EAAA1D0031A2AE /* LoginMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMenu.swift; sourceTree = "<group>"; };
+		85D0785C28EAAF980031A2AE /* CheckAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAccount.swift; sourceTree = "<group>"; };
+		85D0785E28EAC1600031A2AE /* KakaoCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,7 @@
 		85D0783A28EAA8C80031A2AE = {
 			isa = PBXGroup;
 			children = (
-				85D0784528EAA8C80031A2AE /* first assignment */,
+				85D0784528EAA8C80031A2AE /* first_assignment */,
 				85D0784428EAA8C80031A2AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +54,34 @@
 		85D0784428EAA8C80031A2AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85D0784328EAA8C80031A2AE /* first assignment.app */,
+				85D0784328EAA8C80031A2AE /* first_assignment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		85D0784528EAA8C80031A2AE /* first assignment */ = {
+		85D0784528EAA8C80031A2AE /* first_assignment */ = {
 			isa = PBXGroup;
 			children = (
 				85D0784628EAA8C80031A2AE /* AppDelegate.swift */,
 				85D0784828EAA8C80031A2AE /* SceneDelegate.swift */,
-				85D0784A28EAA8C80031A2AE /* ViewController.swift */,
-				85D0785A28EAAA1D0031A2AE /* MainAccount.swift */,
+				85D0785A28EAAA1D0031A2AE /* LoginMenu.swift */,
+				85D0784A28EAA8C80031A2AE /* NewAccount.swift */,
+				85D0785C28EAAF980031A2AE /* CheckAccount.swift */,
+				85D0785E28EAC1600031A2AE /* KakaoCustomView.swift */,
 				85D0784C28EAA8C80031A2AE /* Main.storyboard */,
 				85D0784F28EAA8C90031A2AE /* Assets.xcassets */,
 				85D0785128EAA8C90031A2AE /* LaunchScreen.storyboard */,
 				85D0785428EAA8C90031A2AE /* Info.plist */,
 			);
-			path = "first assignment";
+			path = first_assignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85D0784228EAA8C80031A2AE /* first assignment */ = {
+		85D0784228EAA8C80031A2AE /* first_assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first assignment" */;
+			buildConfigurationList = 85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first_assignment" */;
 			buildPhases = (
 				85D0783F28EAA8C80031A2AE /* Sources */,
 				85D0784028EAA8C80031A2AE /* Frameworks */,
@@ -85,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "first assignment";
+			name = first_assignment;
 			productName = "first assignment";
-			productReference = 85D0784328EAA8C80031A2AE /* first assignment.app */;
+			productReference = 85D0784328EAA8C80031A2AE /* first_assignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first assignment" */;
+			buildConfigurationList = 85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first_assignment" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85D0784228EAA8C80031A2AE /* first assignment */,
+				85D0784228EAA8C80031A2AE /* first_assignment */,
 			);
 		};
 /* End PBXProject section */
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D0784B28EAA8C80031A2AE /* ViewController.swift in Sources */,
+				85D0784B28EAA8C80031A2AE /* NewAccount.swift in Sources */,
+				85D0785D28EAAF980031A2AE /* CheckAccount.swift in Sources */,
 				85D0784728EAA8C80031A2AE /* AppDelegate.swift in Sources */,
-				85D0785B28EAAA1D0031A2AE /* MainAccount.swift in Sources */,
+				85D0785F28EAC1600031A2AE /* KakaoCustomView.swift in Sources */,
+				85D0785B28EAAA1D0031A2AE /* LoginMenu.swift in Sources */,
 				85D0784928EAA8C80031A2AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +301,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5AJPCAS7TS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "first assignment/Info.plist";
+				INFOPLIST_FILE = first_assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Saint.first-assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = Saint.first_assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5AJPCAS7TS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "first assignment/Info.plist";
+				INFOPLIST_FILE = first_assignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Saint.first-assignment";
+				PRODUCT_BUNDLE_IDENTIFIER = Saint.first_assignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first assignment" */ = {
+		85D0783E28EAA8C80031A2AE /* Build configuration list for PBXProject "first_assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85D0785528EAA8C90031A2AE /* Debug */,
@@ -352,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first assignment" */ = {
+		85D0785728EAA8C90031A2AE /* Build configuration list for PBXNativeTarget "first_assignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85D0785828EAA8C90031A2AE /* Debug */,
